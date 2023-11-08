@@ -15,6 +15,10 @@ void main() {
   test('Find max in array', () {
     expect(findMax(arr), 9);
   });
-  test('Find even elements in array', () {});
-  test('Find odd elements in array', () {});
+  test('Find even elements in array', () {
+    expect(findEvenElements(arr), [4, 6]);
+  });
+  test('Find odd elements in array', () {
+    expect(findOddElements(arr), [1, 7, 9]);
+  });
 }
